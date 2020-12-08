@@ -5,7 +5,7 @@ import random
 import time
 
 class Window(Frame):
-    def __init__(self, Master=None):
+    def __init__(self, Master):
         self.Started=False
         Frame.__init__(self, Master)
         self.Master=Master
